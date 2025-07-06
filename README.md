@@ -10,31 +10,31 @@ This project is a sentiment analysis model built using Natural Language Processi
 
   Balance: Equal distribution of positive and negative sentiments
 
- Technologies & Libraries
+ ## Technologies & Libraries
   Python (Pandas, NumPy)
   Scikit-learn (SVC, LinearSVC, GridSearchCV)
   NLTK (for stopwords and lemmatization)
   Matplotlib & Seaborn (for visualization)
   TF-IDF Vectorization
 
-⚙️ Process Overview
-Data Preprocessing
+## Process Overview
+ Data Preprocessing
 
-Removed punctuation
+ Removed punctuation
 
-Lowercased text
+ Lowercased text
 
-Removed stopwords
+ Removed stopwords
 
-Lemmatized tokens
+ Lemmatized tokens
 
-Vectorization
+ Vectorization
 
-Used TfidfVectorizer to convert text to feature vectors
+ Used TfidfVectorizer to convert text to feature vectors
 
-Modeling
+## Modeling
 
-Trained models using SVC with different kernels (linear, poly, sigmoid)
+Trained models using SVC ,Decision Tree,Naive Bayes,Logistic Regression
 
 Performed hyperparameter tuning with GridSearchCV
 
@@ -46,9 +46,9 @@ Confusion Matrix
 
 F1 Score
 
-🧠 Key Findings
+## 🧠 Key Findings
 Linear kernel was fast and efficient on high-dimensional TF-IDF data
 
 RBF and Sigmoid kernels gave better accuracy but were computationally slower
 
-Best Accuracy: (Add your best score here)
+Best Accuracy: (89.5)
