@@ -1,1 +1,3 @@
 # Sentiment-Analysis-NLP
+
+This project is a sentiment analysis model built using Natural Language Processing (NLP) techniques on the IMDB movie reviews dataset. It involves preprocessing text data through tokenization, stopword removal, and lemmatization, followed by feature extraction using TF-IDF Vectorization. The processed data is then fed into a Support Vector Machine (SVM) classifier, and hyperparameters are optimized using GridSearchCV for better performance. The final model is evaluated using metrics such as the F1-score and confusion matrix. After tuning and testing, the model achieved a final F1-score of 0.89, demonstrating strong performance in classifying reviews as positive or negative.
